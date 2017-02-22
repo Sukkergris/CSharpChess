@@ -1,0 +1,5 @@
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/Library/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/Library/bin/Debug/Library.dll.mdb
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/Library/bin/Debug/Library.dll
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/Library/obj/Debug/Library.dll
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/Library/obj/Debug/Library.dll.mdb

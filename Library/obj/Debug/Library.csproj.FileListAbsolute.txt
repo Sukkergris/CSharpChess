@@ -1,0 +1,5 @@
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\bin\Debug\Library.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\bin\Debug\Library.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\obj\Debug\Library.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\obj\Debug\Library.pdb

@@ -1,0 +1,11 @@
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\Test.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\Test.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\Library.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\nunit.framework.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\Library.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\nunit.framework.xml
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\obj\Debug\Test.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\obj\Debug\Test.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\TUI.exe
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Test\bin\Debug\TUI.pdb

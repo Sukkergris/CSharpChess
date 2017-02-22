@@ -1,0 +1,7 @@
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/bin/Debug/TUI.exe.mdb
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/bin/Debug/TUI.exe
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/obj/x86/Debug/TUI.exe
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/obj/x86/Debug/TUI.exe.mdb
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/bin/Debug/Library.dll
+/home/maurits/Dropbox/Studie/Opgaver/softwareudvikling/stuff/csharp/Chess/TUI/bin/Debug/Library.dll.mdb

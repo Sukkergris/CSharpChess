@@ -1,0 +1,7 @@
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\obj\x86\Debug\TUI.exe
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\TUI.exe
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\TUI.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\Library.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\Library.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\obj\x86\Debug\TUI.csprojResolveAssemblyReference.cache
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\obj\x86\Debug\TUI.pdb

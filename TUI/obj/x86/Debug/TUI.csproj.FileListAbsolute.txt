@@ -5,3 +5,10 @@ C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI
 C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\Library.pdb
 C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\obj\x86\Debug\TUI.csprojResolveAssemblyReference.cache
 C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\obj\x86\Debug\TUI.pdb
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\mscorlib.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\da\mscorlib.resources.dll
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\normidna.nlp
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\normnfc.nlp
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\normnfd.nlp
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\normnfkc.nlp
+C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\TUI\bin\Debug\normnfkd.nlp

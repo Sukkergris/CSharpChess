@@ -157,7 +157,7 @@ namespace Library
 
 					int KingYDist = Math.Abs (u - pl [OtherKing].Y);
 					int KingXDist = Math.Abs (z - pl [OtherKing].X);
-					return (yDist == 1 || xDist == 1) && (KingXDist > 1 || KingYDist > 1);
+					return ((yDist == 1 && xDist == 1) || (yDist == 0 && xDist == 1) || (yDist == 1 && xDist == 0)) && (KingXDist > 1 || KingYDist > 1);
 
 				default:
 					return false;
@@ -263,7 +263,6 @@ namespace Library
 				{
 					if (ValidateMove(pl, pl[i], p.X, p.Y))
 					{
-						Console.WriteLine (pl[i]);
 						return false;
 					}
 				}

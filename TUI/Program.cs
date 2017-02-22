@@ -9,20 +9,8 @@ namespace TUI
 		{
 			var testBoard = new Board();
 			int turn = 0;
-			Console.Title = "Chess v.1.0 - No autocheck for check mate";
+			Console.Title = "Chess v.1.1 - No auto check for remi and no king/rook move.";
 			bool checkmate = false;
-
-			// foreach p in pl 
-			// 		if p.Color == CheckColor
-			// 			foreach f in fl
-			// 				if testBoard.ValidateMoves(p.X, p.Y, f.X, f.Y)
-			// 					execute move(a, b, c, d)
-			// 					if Move.CheckHelp
-			// 						execute move(c, d, a, b)
-			// 						checkmate = true
-			// 						return
-			//					execute move(c, d, a, b)
-
 
 			while (!checkmate) {
 				Console.Clear ();
@@ -33,19 +21,39 @@ namespace TUI
 				Piece bk = testBoard.Pieces [tmp1];
 				bool cwk = Move.CheckHelp (testBoard.Pieces, wk);
 				bool cbk = Move.CheckHelp (testBoard.Pieces, bk);
+				bool tmp3;
 
-				//Prints according to player turn
+ 				//Prints according to player turn
 				Console.WriteLine (string.Format ("\tMove: {0}", turn + 1));
-				if (turn % 2 == 0) {
-					if (!cwk) {
+				if (turn % 2 == 0) 
+				{
+					if (!cwk) 
+					{
+						tmp3 = CheckMate (testBoard, "White");
+						if (tmp3) {
+							checkmate = tmp3;
+							continue;
+						}
 						Console.WriteLine ("\tCheck!\n\tWhites turn");
-					} else {
+					} 
+					else 
+					{
 						Console.WriteLine ("\tWhites turn\n");
 					}
-				} else {
-					if (!cbk) {
+				} 
+				else 
+				{
+					if (!cbk) 
+					{
+						tmp3 = CheckMate (testBoard, "Black");
+						if (tmp3) {
+							checkmate = tmp3;
+							continue;
+						}
 						Console.WriteLine ("\tCheck!\n\tBlacks turn");
-					} else {
+					} 
+					else 
+					{
 						Console.WriteLine ("\tBlacks turn\n");	
 					}
 				}
@@ -57,11 +65,15 @@ namespace TUI
 				int check = Move.FindPiece (testBoard.Pieces, a, b);
 				if (check > -1) {
 					if (turn % 2 == 0) {
-						if (testBoard.Pieces [check].Color != "White") {
+						if (testBoard.Pieces [check].Color != "White") 
+						{
 							continue;
 						}
-					} else {
-						if (testBoard.Pieces [check].Color != "Black") {
+					} 
+					else 
+					{
+						if (testBoard.Pieces [check].Color != "Black") 
+						{
 							continue;
 						}	
 					}
@@ -73,7 +85,8 @@ namespace TUI
 				Console.Write ("\n");
 
 				//Restrick invalid moves by coordinates
-				if (testBoard.ValidateMoves (a, b, c, d) == 0) {
+				if (testBoard.ValidateMoves (a, b, c, d) == 0) 
+				{
 					continue;
 				}
 					
@@ -83,21 +96,27 @@ namespace TUI
 				cbk = Move.CheckHelp (testBoard.Pieces, bk);
 
 				//Restrict moves that puts your king in chess on your own turn.
-				if (turn % 2 == 0) {
-					if (!cwk) {
+				if (turn % 2 == 0) 
+				{
+					if (!cwk) 
+					{
 						testBoard.ExecuteMoves (c, d, a, b);
 						continue;
 					}
-				} else {
-					if (!cbk) {
+				} 
+				else 
+				{
+					if (!cbk) 
+					{
 						testBoard.ExecuteMoves (c, d, a, b);
 						continue;
 					}
 				}
+
 				turn++;
 			}
 
-			//Console.WriteLine("CheckMate!");
+			Console.WriteLine("CheckMate!");
 		}
 
 		public static char ValidateCharInput()
@@ -134,6 +153,51 @@ namespace TUI
 				Console.Write("\b \b");
 			}
 			return retVal;
+		}
+
+		public static bool CheckMate(Board b, string checkColor)
+		{
+			bool retval = true;
+			int tmp = Move.FindPieceByType(b.Pieces, "King", checkColor);
+			Piece king = b.Pieces[tmp];
+			foreach (Piece p in b.Pieces) 
+			{
+				if (p.Color == king.Color) 
+				{
+					char x = p.X;
+					int y = p.Y;
+					foreach (Field f in b.Fields) 
+					{
+						if (b.ValidateMoves(x, y, f.X, f.Y) == 1) 
+						{
+							int tmp1 = Move.FindPiece(b.Pieces, f.X, f.Y);
+							char tmpX = 'k';
+							int tmpY = -2;
+							if (tmp1 > -1) {
+								tmpX = b.Pieces[tmp1].X;
+								tmpY = b.Pieces[tmp1].Y;
+							}
+							b.ExecuteMoves(x, y, f.X, f.Y);
+							if (Move.CheckHelp(b.Pieces, king)) 
+							{
+								b.ExecuteMoves(p.X, p.Y, x, y);
+								if (tmp1 > -1) {
+									b.Pieces [tmp1].X = tmpX;
+									b.Pieces [tmp1].Y = tmpY;
+								}
+								return false;
+							}
+							b.ExecuteMoves(p.X, p.Y, x, y);
+							if (tmp1 > -1) {
+								b.Pieces [tmp1].X = tmpX;
+								b.Pieces [tmp1].Y = tmpY;
+								b.Pieces [tmp1].StatusAlive ();
+							}
+						}
+					}	
+				}
+			}
+			return retval;
 		}
 	}
 }

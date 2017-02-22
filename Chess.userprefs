@@ -1,16 +1,14 @@
-﻿<Properties StartupConfiguration="{CA79FF3E-EC3E-4E86-8571-F44AD8948D14}|Default">
+﻿<Properties StartupConfiguration="{CA79FF3E-EC3E-4E86-8571-F44AD8948D14}|Default" StartupItem="TUI/TUI.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TUI\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TUI/Program.cs">
     <Files>
-      <File FileName="Library\Piece.cs" Line="17" Column="17" />
-      <File FileName="Library\PieceSetup.cs" Line="24" Column="4" />
-      <File FileName="Library\Board.cs" Line="101" Column="30" />
-      <File FileName="TUI\Program.cs" Line="21" Column="54" />
+      <File FileName="Library/Board.cs" Line="89" Column="26" />
+      <File FileName="TUI/Program.cs" Line="9" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TUI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

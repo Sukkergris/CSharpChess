@@ -6,7 +6,6 @@ namespace Library
 	{
 		public readonly Field[] Fields = new Field[64];
 		public readonly Piece[] Pieces = new Piece[32];
-		private int Turn = 1;
 
 		public Board()
 		{
@@ -42,11 +41,6 @@ namespace Library
 			Pieces[p].X = z;
 			Pieces[p].Y = u;
 			Pieces[p].ChangeMovedState();
-
-			if (Pieces[p].Color == "White")
-			{
-				Turn++;
-			}
 		}
 
 		public void cprintf(string c, ConsoleColor b)

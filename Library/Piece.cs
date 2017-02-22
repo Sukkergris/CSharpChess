@@ -46,6 +46,11 @@ namespace Library
 			}
 		}
 
+		public void StatusAlive()
+		{
+			State = StateType.Alive;
+		}
+
 		public enum StateMoved { Unmoved, Moved };
 
 		public StateMoved Moved {

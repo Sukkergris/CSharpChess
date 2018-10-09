@@ -10,3 +10,9 @@ C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Lib
 C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\bin\Debug\normnfd.nlp
 C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\bin\Debug\normnfkc.nlp
 C:\Users\Maurits\Dropbox\Studie\Opgaver\softwareudvikling\stuff\csharp\Chess\Library\bin\Debug\normnfkd.nlp
+C:\Users\mauri\Documents\GitHub\CSharpChess\Library\bin\Debug\Library.dll
+C:\Users\mauri\Documents\GitHub\CSharpChess\Library\bin\Debug\Library.pdb
+C:\Users\mauri\Documents\GitHub\CSharpChess\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\mauri\Documents\GitHub\CSharpChess\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Documents\GitHub\CSharpChess\Library\obj\Debug\Library.dll
+C:\Users\mauri\Documents\GitHub\CSharpChess\Library\obj\Debug\Library.pdb

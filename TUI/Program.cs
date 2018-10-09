@@ -128,7 +128,6 @@ namespace TUI
 							}
 						}
 					}
-					castling = finalCst;
 				}
 
 				//Restrick invalid moves by coordinates
